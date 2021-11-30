@@ -12,6 +12,16 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 ul {
     align-content: ;
 }
@@ -42,7 +52,7 @@ ul {
 }
 
 .navbar-collapse {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Bold', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -62,4 +72,51 @@ ul {
     transform: rotate(20deg);
 }
 
+/* Features Section */
 
+#features {
+    padding: 7% 15%;
+
+}
+
+.feature-text {
+    text-align: center;
+    padding: 5%;
+}
+
+/* 
+.feature-1 {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-2 {
+    text-align: center;
+    padding: 5%;
+}
+.feature-3 {
+    text-align: center;
+    padding: 5%;
+} */
+
+.feature-desc {
+    color: #8f8f8f;
+}
+
+.row .fas {
+    color: #ef8172;
+    margin-bottom: 25px;
+}
+
+.row .fas:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
